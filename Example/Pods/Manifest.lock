@@ -1,0 +1,16 @@
+PODS:
+  - DataModels (0.1.0)
+
+DEPENDENCIES:
+  - DataModels (from `../`)
+
+EXTERNAL SOURCES:
+  DataModels:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DataModels: bd3bb096626fee49b224606fc93843e462bfde18
+
+PODFILE CHECKSUM: 13b120f387628d0756415999680f54e37fcde123
+
+COCOAPODS: 1.10.1
