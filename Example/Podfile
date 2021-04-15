@@ -1,9 +1,13 @@
-use_frameworks!
+# use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'DataModels_Example' do
   pod 'DataModels', :path => '../'
+
+
+  pod 'SwiftLint'
+  pod 'API', :git => 'https://github.com/lucaswkuipers/API.git'
 
   target 'DataModels_Tests' do
     inherit! :search_paths

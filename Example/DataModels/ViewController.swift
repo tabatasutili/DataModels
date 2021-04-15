@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import DataModels
+import API
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let ii: CellsViewModel = CellsViewModel(icon: "aa", name: "aa", identifier: "aa", price: 111)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,4 +23,3 @@ class ViewController: UIViewController {
     }
 
 }
-

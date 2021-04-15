@@ -16,7 +16,15 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "DataModels/Classes/**/*"
+  "source_files": "DataModels/Classes/**/*",
+  "dependencies": {
+    "AlamofireImage": [
+
+    ],
+    "SwiftLint": [
+
+    ]
+  }
 }
